@@ -1,11 +1,11 @@
-# Ignore all files
-*
+# Ignore all directories
+*/
 
-# But track these specific files
-!.gitignore
-!experimentation.ipynb
-!honeycomb_analysis.ipynb
-!angles_from_centroids.ipynb
-!README.md
-!angle_data/*
-!figures/*
+# But track these specific directories
+!angle_data/
+!figures/
+!figures/schematics
+
+# Ignore these files
+Honeycomb___size_paper.pdf
+*.mp4
