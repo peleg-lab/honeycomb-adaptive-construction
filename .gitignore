@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# But track these specific files
+!.gitignore
+!experimentation.ipynb
+!honeycomb_analysis.ipynb
+!angles_from_centroids.ipynb
+!README.md
+!figures
