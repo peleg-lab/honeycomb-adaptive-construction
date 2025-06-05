@@ -1,11 +1,44 @@
-# Ignore all directories
-*/
+# Ignore PDFs
+*.pdf
 
-# But track these specific directories
-!angle_data/
-!figures/
-!figures/schematics
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
 
-# Ignore these files
-Honeycomb___size_paper.pdf
-*.mp4
+# Ignore CSVs and text files
+*.csv
+*.tsv
+*.txt
+
+# Ignore macOS system files
+__MACOSX
+__MACOSX/*
+.DS_Store
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.tmp
+*.bak
+*.old
+*.log
+
+# Ignore Python cache files (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific folders
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
