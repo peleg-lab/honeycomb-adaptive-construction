@@ -42,3 +42,5 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Do not ignore the following files
+!requirements.txt
