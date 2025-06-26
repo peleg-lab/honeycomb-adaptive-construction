@@ -44,3 +44,4 @@ Desktop.ini
 
 # Do not ignore the following files
 !requirements.txt
+!docs/code_flow_schematic.png
